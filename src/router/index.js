@@ -18,8 +18,7 @@ const routes = [
   {
     path: '/methods',
     name: 'methods',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Methods.vue')
-
+    component: () => import('../views/Methods.vue')
   }
 ]
 
